@@ -1,0 +1,98 @@
+body{
+    background-image:url(../images/ph.jpeg);
+    background-attachment: fixed!important;
+    
+}
+section{
+    color: white;
+    margin-top: 10px;
+}
+p{
+    color: rgb(255, 247, 247);
+    font-size:14px;
+    font-weight:900;
+}
+div{
+    float: right;
+    border: 5px outset;
+    width: 350px;
+    text-align: center;
+    padding: -100px;
+    padding-top:-100px ;
+    padding-right:10px ;
+    color: rgb(237, 228, 222);
+    display: inline-block;
+}
+li{
+    color: darkgoldenrod;
+    font-size: larger;
+    text-transform: uppercase;
+}
+li:hover{
+    color: beige;
+    background-color: black;
+    width: 250px;
+}
+h1,h2{
+    -webkit-text-stroke: 1px rgb(233, 227, 227);
+}
+h1:hover{
+    color:goldenrod;
+}
+h2:hover{
+    color: blue;
+    font-weight: bold;
+}
+.c {
+    color: rgb(20, 236, 38);
+}
+.p1{
+    color: rgb(62, 53, 33);
+    display: inline-block; 
+}
+.p1:hover{
+-webkit-text-stroke: 1px rgb(155, 96, 96);
+border-right:gray groove;
+}
+img{
+    position: fixed;
+    margin-right: 15px;
+    margin-top: -10%;
+}
+img:hover{
+    opacity: 0.4;
+    
+}
+.d{
+    opacity: 0.4;
+    
+    width: 300px;
+}
+.d:hover{
+    
+    background-image: url(../images/d.png);
+    width: 300px;
+}
+video{
+    z-index: -2;
+    margin-top: -15%;
+}
+video:hover{
+    border:white groove;
+}
+button:hover{
+    color: blueviolet;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 152, 18);
+}
+a:hover{
+    color: rgb(207, 201, 192);
+}
+.f1{
+    border:gray ridge;
+    background-color: black;
+    width: 100px;
+}
